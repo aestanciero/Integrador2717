@@ -771,11 +771,12 @@ footer{
         font-size: 80%;
     }
     .img-nosotros{
-        flex-direction: column;
+        flex-direction: row;
         width: 50%;
         height: 5%;
         margin-left: 25% ;
         margin-top: 10%;
+        display:none;
     }
     .h2-sucursales{
         font-size: 100%;
