@@ -1,0 +1,659 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Montserrat:wght@300;500&family=Nunito+Sans&family=PT+Sans:wght@700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    background: #1c1c1a;
+    color: #f4b902;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    text-align: center;
+    background-color: #1c1c1a;
+    display: flex;
+}
+.nav-label, .nav-input{
+    background-color: #1c1c1a;
+    display: none;
+}
+.listainput{
+    display: none;
+}
+ul{
+    /**display: flex;**/
+    margin-top: 60px;
+    margin-right: 0;
+}
+a{
+    text-decoration: none;
+    color: #f4b902;
+    font-size: 120%;   
+}
+
+.lista-izq {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: start;
+    gap: 60%;
+    margin-left: 15%;
+}
+.lista-izq a:active{
+    font-size: 150%;
+    color: #fd641d;
+}
+.logo{
+    display: flex;
+    margin-left: 26%;
+    width: 12%;
+    height: 12%;
+}
+.lista-derech {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+    gap: 60%;
+    margin-left:25%;
+    margin-right: 5%;
+}
+.lista-derech a:active{
+    font-size: 150%;
+    color: #fd641d;
+}
+.hero{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    margin-top: 2%;
+}
+.img-portada{
+    width: 35vw;
+    height: 70vh;
+    display: flex;
+    border-radius: 15px;
+    margin-right: 5%;  
+
+}
+.titulo-portada{
+  margin-left: 15%;  
+   
+}
+.titulo-hero{
+    font-size: 6em;
+    margin-bottom: 10%;
+}
+.button-hero {
+    background: #f4b902;
+    border-radius: 15px;
+    margin-top: 10%;
+    margin-left: 18%;
+    padding: 2%;
+    border: none; 
+    color: #1c1c1a;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.button-hero:hover{
+    background-color: #fd641d;
+    color: #f4b902;
+    transition: all 0.3s ease;
+}
+   
+
+.section-masBuscadas{
+    margin-top: 10%;
+
+}
+.titulo-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+.mas-buscadas{
+    margin-top: 5%;
+    flex-wrap:wrap   ;
+    display: flex;
+    gap: 5%;
+   
+}
+.card-masBuscadas{
+    border: #f4b902;
+    border-style: inset;
+    border-radius: 10px;
+    width: 22%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    padding: 0.5rem;
+   
+
+}
+.img-masBuscadas{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.h3-masBuscadas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p-masBuscadas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+    text-align: center;
+   
+
+}
+.precio {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:#fd641d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.precio1{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.button-precio{
+    background: #f4b902;
+    border-radius: 15px;
+    margin-top: 5%;
+    padding: 5%;
+    border: none; 
+    color: #fd641d;
+    font-size:1rem;
+    font-weight: 700;
+}
+.button-precio a:hover{
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+.button-precio1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section-laquiero1{
+    margin-top: 12%;
+   }
+
+.nosotros{
+    background-color: #f4b902;
+    color: #1c1c1a;
+}
+.texto-nosotros{
+    background-color: #f4b902;
+
+}
+
+.h3-nosotros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-size: 2.5rem;
+    background-color: #f4b902;
+    color: #1c1c1a;
+    padding: 2%;
+    
+}
+.p-nosotros{
+    background-color: #f4b902;
+    color: #1c1c1a;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.img-nosotros{
+    display: flex;
+    width: 15vw;
+    height: 50vh;
+    margin-left: 14%;
+    margin-top: 5%;
+    
+}
+.sucursales{
+    margin-top: 5%;
+  
+}
+.h2-sucursales{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+.conteiner-sucursales{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+    margin-top: 5%;
+}
+.h3-sucursales{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.9rem;
+    margin-bottom: 10%;
+}
+.p-sucursal{
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fd641d;
+}
+.conteiner-botonsucursales{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+.button-sucursales{
+    background-color: #f4b902;
+    color: #1c1c1a;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    border: none;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.button-sucursales:hover{
+    color: #fd641d;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+
+}
+.contacto{
+    background: #f4b902;
+}
+.conteiner-contacto{
+    margin-top: 10%;
+    background-color: #f4b902;
+}
+
+.h2-contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4b902;
+    color: #1c1c1a;
+    font-size: 1.9rem;
+  
+}
+label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4b902;
+    color: #1c1c1a;
+    margin-top: 5%;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.input-contacto{
+   margin-left: 35%;
+   width: 30%;
+   height: 4vh;
+   border-radius: 15px;
+   
+  
+}
+.contacto-input{
+    background-color: #f4b902;
+}
+.contacto-texarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4b902;
+    
+
+}
+textarea{
+    border-radius: 15px;
+    margin-bottom: 2%;
+   
+}
+.button-contacto1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f4b902;
+    
+}
+.button-contacto{
+    text-align: center;
+    color:#1c1c1a;
+    background-color:#fd641d;
+    border-radius: 15px;
+    padding: 2%;
+    font-weight: 900;
+    margin-bottom: 4%;
+}
+.button-contacto a:hover{
+    font-size:1.3rem;
+    transition: all 0.3s ease;
+}
+footer{
+  margin-top: 2%;
+  padding: 1%;
+}
+.logo-footer{
+  margin-left: 46%;
+  width: 9%;
+}
+.h2-footer{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.h3-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    font-size: 0.8rem;
+}
+.icons-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+    gap: 30px;
+}
+.p-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+   
+}
+
+@media (min-width:1120px) and (max-width:1270px){
+
+.logo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 10%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+.lista-izq{
+    gap: 70px;
+}
+.lista-derech{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+.conteiner-nosotros{
+    align-items: center;
+    margin: 5%;
+}
+
+}
+   
+@media (min-width:992px) and (max-width:1119px)  {
+
+    .logo{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width: 9%;
+        height: 9%;
+        margin-left: 10%;
+        margin-top: 1%;
+        
+    }
+    .lista-izq{
+        gap: 70px;
+        font-size: 15px;
+    }
+    .lista-derech{
+        gap: 70px;
+        font-size: 15px;
+        margin-left: 10%;
+    }
+ 
+}
+@media (min-width:768px) and (max-width:991px){
+    .menu-btn{
+        margin-left: 10%;
+    }
+    .logo{
+        display: flex;
+       margin-left: 50px;
+    }
+    .nav-label{
+        display: block;
+        cursor: pointer;
+        margin-left: 50%;
+    }
+   
+    ul {
+        display: none; 
+    }
+
+    .lista-izq a{   
+     display: flex;
+     justify-content: start;
+     font-weight: 900;
+     font-size: 25px;
+     position: relative;
+    }
+
+    .listainput{
+        display: block;
+    }
+
+    .listainput a{   
+         display: flex;
+         justify-content: start;
+         font-weight: 900;
+         font-size: 25px;
+         gap: 15px;
+        }
+
+    li{
+        margin-bottom: 5px;
+    }
+
+    input:checked + ul  {
+        display: block;
+    }
+  
+    .lista-izq  {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    
+    .titulo-hero{
+        font-size: 60px;
+        margin-left: 5%;
+    }
+
+    .subtitulo-hero{
+        font-size: 20px;
+        margin-left: 5%;
+    }
+
+    .img-portada{
+        width: 40%;
+        height: 40%;
+    }
+      .titulo-section{
+        font-size: 40px;
+    }
+    .section-masBuscadas{
+        margin: 15px;
+    }
+    .card-masBuscadas{
+        flex-wrap: wrap;
+    
+    }
+    .p-masBuscadas{
+       text-align: center;
+       font-size: 11px; 
+    }
+    .paticomple, .parrillera, .cuzco, .gringa, .Costanera, .carpichosa {
+        width: 100%;
+        height:100%;
+    }
+    .conteiner-nosotros{
+        margin: 20px;
+      
+    }
+    .img-nosotros{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media  (max-width:767px){
+    .menu-btn{
+        margin-left: 10%;
+    }
+    .logo{
+        display: flex;
+       margin-left: 50px;
+       width: 100px;
+       height: 100px;
+    }
+    .nav-label{
+        display: block;
+        cursor: pointer;
+        margin-left: 50%;
+    }
+   
+    ul {
+        display: none; 
+    }
+
+    .lista-izq a{   
+     display: flex;
+     justify-content: start;
+     font-weight: 900;
+     font-size: 25px;
+     position: relative;
+    }
+
+    .listainput{
+        display: block;
+    }
+
+    .listainput a{   
+         display: flex;
+         justify-content: start;
+         font-weight: 900;
+         font-size: 25px;
+         gap: 15px;
+        }
+
+    li{
+        margin-bottom: 5px;
+    }
+
+    input:checked + ul  {
+        display: block;
+    }
+  
+    .lista-izq  {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .titulo-hero{
+        font-size: 50px;
+    }
+    .subtitulo-hero{
+        font-size: 20px;
+    }
+    .button-hero{
+        margin-left: 20px;
+        font-size: 20px;
+        
+    }
+    .img-portada{
+        height: 200px;
+    }
+    .titulo-section{
+        font-size: 30px;
+    }
+    .paticomple, .parrillera, .cuzco, .gringa, .Costanera, .carpichosa {
+        width: 100%;
+        height:100%;
+    }
+    .h3-masBuscadas{
+        text-align: center;
+        font-size: 20px;
+    }
+     .p-masBuscadas{
+        font-size: 9.5px;
+
+    }
+    .h3-nosotros{
+        font-size: 30px;
+    }
+    .p-nosotros{
+        font-size: 20px;
+    }
+    .img-nosotros{
+        width: 150px;
+        height: 150px;
+        margin-left: 50px;
+    }
+    .h2-sucursales{
+        font-size: 25px;
+    }
+    .conteiner-sucursales1{
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    .h3-sucursales{
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .p-sucursal{
+        font-size: 18px;
+     
+    }
+    .button-sucursales{
+        font-size: 15px;  
+    }
+    .h2-contacto{
+        font-size: 25px;
+    }
+    label{
+        font-size: 22px;
+
+    }
+    .logo-footer{
+        width: 85px;
+        height: 85px;
+    }
+    .h2-footer{
+        font-size: 20px;
+    }
+    .h3-footer{
+        font-size: 10px;
+    }
+    .p-footer{
+        font-size: 10px;
+
+    }
+
+}
