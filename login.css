@@ -81,21 +81,73 @@ input{
     justify-content: center;
     margin-top: 1.1%;
 }
-@media (max-width: 992px){
-    .logo-login{
-        width:100px;
-        height: 100px;
+@media (min-width:320px) and (max-width: 600px){
+    .logo-login1{
+        width: 70%;
+        display: flex;
+       align-items: center;
+       justify-content: center;
     }
     h1{
-        font-size: 20px;
-        margin: 10px;
+        font-size: 100%;
+        margin: 5%;
     }
-    label{
-        font-size: 20px;
+    .label{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 0.9em;
+        
     }
-    input{
-        margin-left:40%;
-    }
+    .input{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
+    }
+    .button-login{
+        font-size: 100%;
+    }
+    .contacto-texarea{
+        padding: 50%;
+    }
+}
+@media (min-width:601px) and (max-width:1200px){
+    .logo-login1{
+        width: 70%;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    h1{
+        font-size: 130%;
+        text-align: center;
+        margin: 5%;
+    }
+    .label{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 0.9em;
+        
+    }
+    .input{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .button-login{
+        font-size: 100%;
+    }
+    .contacto-texarea{
+        padding: 50%;
+    }
 
 }

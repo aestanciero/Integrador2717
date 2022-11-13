@@ -522,9 +522,10 @@ footer{
     .img-nosotros{
         width: 200px;
         height: 200px;
+       
     }
 }
-@media  (max-width:767px){
+@media (min-width:600px) and (max-width:767px){
     .menu-btn{
         margin-left: 10%;
     }
@@ -612,9 +613,10 @@ footer{
         font-size: 20px;
     }
     .img-nosotros{
-        width: 150px;
-        height: 150px;
-        margin-left: 50px;
+        width:30vw;
+        height: 30vh;
+       
+        margin-top: 10%;
     }
     .h2-sucursales{
         font-size: 25px;
@@ -657,3 +659,175 @@ footer{
     }
 
 }
+
+@media (min-width:320px) and (max-width:599px){
+    .menu-btn{
+        margin-right: 10%;
+    }
+    .navbar{
+        margin-bottom: 20%;
+    }
+    .logo{
+        display: flex;
+       margin-left: 30px;
+       width: 100px;
+       height: 100px;
+       position: absolute;
+       margin-bottom: 50%;
+       
+    }
+    .nav-label{
+        display: block;
+        cursor: pointer;
+        margin-left: 50%;
+    }
+   
+    ul {
+        display: none; 
+    }
+
+    .lista-izq a{   
+     display: flex;
+     justify-content: start;
+     font-weight: 900;
+     font-size: 15px;
+     position: relative;
+    }
+
+    .listainput{
+        display: block;
+    }
+
+    .listainput a{   
+         display: flex;
+         justify-content: start;
+         font-weight: 900;
+         font-size: 15px;
+         gap: 15px;
+        }
+
+    li{
+        margin-bottom: 5px;
+    }
+
+    input:checked + ul  {
+        display: block;
+    }
+  
+    .lista-izq  {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .titulo-hero{
+        font-size: 2em;
+    }
+    .subtitulo-hero{
+        font-size: 1em;
+        margin-right: 2%;
+    }
+    .button-hero{
+        margin-left: 20px;
+        font-size: 15px;
+        
+    }
+    .img-portada{
+        height: 30vh;
+        width: 30vw;
+    }
+    .titulo-section{
+        font-size: 2em;
+        margin-right: 0.2em;
+    }
+    .card-masBuscadas{
+        padding: 8%;
+    }
+    .paticomple, .parrillera, .cuzco, .gringa, .Costanera, .carpichosa {
+        width: 100%;
+        height:100%;
+    }
+    .h3-masBuscadas{
+        text-align: center;
+        font-size:80%;
+        padding: 5%;
+    }
+     .p-masBuscadas{
+        font-size: 45%;
+        display: flex;
+        justify-content: center;
+
+    }
+    .precio{
+        font-size: 1.2em;
+    }
+    .button-precio{
+        font-size: 0.9em;
+    }
+   
+    .h3-nosotros{
+        font-size: 100%;
+    }
+    .p-nosotros{
+        font-size: 80%;
+    }
+    .img-nosotros{
+        flex-direction: column;
+        width: 50%;
+        height: 50%;
+        margin-left: 25% ;
+        margin-top: 10%;
+    }
+    .h2-sucursales{
+        font-size: 100%;
+    }
+    .conteiner-sucursales1{
+        width: 25%;
+        margin-bottom: 15px;
+    }
+    .h3-sucursales{
+        font-size: 80%;
+        margin-bottom: 8px;
+    }
+    .p-sucursal{
+        font-size: 70%;
+        text-align: center;
+    }
+    .button-sucursales{
+        font-size:90%;  
+    }
+    .h2-contacto{
+        font-size: 100%;
+    }
+    label{
+        font-size: 80%;
+
+    }
+    textarea{
+        margin-left:10%;
+        margin-right: 10%;
+    }
+    .button-contacto{
+        font-size: 90%;
+    }
+    
+    .logo-footer{
+        width: 85px;
+        height: 85px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .h2-footer{
+        font-size: 85%;
+    }
+    .h3-footer{
+        font-size: 50%;
+        margin-bottom: 2%;
+    }
+    .p-footer{
+        font-size: 10px;
+
+    }
+}
+
+
