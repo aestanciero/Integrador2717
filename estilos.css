@@ -773,7 +773,7 @@ footer{
     .img-nosotros{
         flex-direction: column;
         width: 50%;
-        height: 50%;
+        height: 20%;
         margin-left: 25% ;
         margin-top: 10%;
     }
